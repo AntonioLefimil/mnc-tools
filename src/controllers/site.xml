@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<siteMap 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="http://blackapps.cl/ofw/ofw.xsd">
+	
+	<requestMapping name="login.htm" class="HomeController" method="index" />
+	<requestMapping name="signin.htm" accessMethod="POST" class="HomeController" method="login" />
+	<requestMapping name="menu.htm" class="HomeController" method="menu" />
+	<requestMapping name="logout.htm" class="HomeController" method="logout" />
+	
+	<requestMapping name="kiosco.htm" class="kioscoController" method="homeKiosco" />
+	<requestMapping name="rebootIE.htm" class="KioscoController" method="reiniciarExplorer" ajaxResponse="json" />
+	<requestMapping name="teclado.htm" class="KioscoController" method="homeTeclado" />
+	<requestMapping name="getVisibilidadTeclado.htm" class="KioscoController" method="getVisibilidadTeclado" ajaxResponse="json" />
+	<requestMapping name="setVisibilidadTeclado.htm" class="KioscoController" method="setVisibilidadTeclado" ajaxResponse="json" />
+	
+	<requestMapping name="boleta.htm" class="BoletaController" method="home" />
+	<requestMapping name="homeImprimirBoleta.htm" class="BoletaController" method="homeImprimirBoleta" />
+	<requestMapping name="buscarBoleta.htm" class="BoletaController" method="buscarBoleta" ajaxResponse="json" />
+	<requestMapping name="imprimirBoleta.htm" class="BoletaController" method="imprimirBoleta" ajaxResponse="json" /> 
+	
+	<requestMapping name="transbank.htm" class="TransbankController" method="homeTransbank" />
+	<requestMapping name="ultimaTransaccion.htm" class="TransbankController" method="ultimaTransaccion" ajaxResponse="json" />
+	<requestMapping name="buscarAtencionPendiente.htm" class="TransbankController" method="homeBuscarAtencionPendiente" />
+	<requestMapping name="pagoManualTransbank.htm" class="TransbankController" method="homePagoManualTransbank" />
+	<requestMapping name="buscarEstadoPendiente.htm" class="TransbankController" method="buscarEstadoPendiente" ajaxResponse="json" />
+	<requestMapping name="cargarValorTipoConsulta.htm" class="TransbankController" method="cargarValorTipoConsulta" ajaxResponse="json" />
+	<requestMapping name="obtenerDatosVentas.htm" class="TransbankController" method="cargarNombrePaciente" ajaxResponse="json"/>
+	<requestMapping name="generarPago.htm" class="TransbankController" method="generarPago" ajaxResponse="json" />
+	
+	<requestMapping name="agendarPacienteHome.htm" class="PacienteController" method="agendarPacienteHome" />
+	<requestMapping name="consultarPrevision.htm" class="PacienteController" method="consultarPrevision"  />
+	<requestMapping name="consultarConvenio.htm" class="PacienteController" method="consultarConvenio"  />
+	<requestMapping name="contarPacientesSinAgendar.htm" class="PacienteController" method="contarPacientesSinAgendar" ajaxResponse="json" />
+	<requestMapping name="buscarPacientesSinAgendar.htm" class="PacienteController" method="buscarPacienteSinAgendar" ajaxResponse="json" />
+	<requestMapping name="agendarPacienteMw.htm" class="PacienteController" method="agendarPacienteMiddleware" ajaxResponse="json" />
+	
+	<requestMapping name="getPreviones.htm" class="PrevisionController" method="findPrevisiones" ajaxResponse="json" />
+	<requestMapping name="validarPrevision.htm" class="PrevisionController" method="validarPrevision" ajaxResponse="json" />
+	
+</siteMap>

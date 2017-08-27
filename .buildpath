@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="src/controllers"/>
+	<buildpathentry kind="src" path="src/core"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+	<buildpathentry kind="src" path="src/ws/client"/>
+	<buildpathentry kind="src" path="src/delegate"/>
+	<buildpathentry kind="src" path="src/dao"/>
+	<buildpathentry kind="src" path="src/model"/>
+</buildpath>

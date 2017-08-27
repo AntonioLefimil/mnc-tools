@@ -1,0 +1,13 @@
+/* welcome css  */
+.ui-menu { width: 80%; }
+div#sidebar { width: 20%; }
+div#workspace { width: 60%; }
+div#sidebar, div#workspace { float: left; height: 320px; }
+iframe#target { width: 100%; height: 100%; border: 0; }
+div#status{ width: 100%; border: 1px solid #fff; width: 80%; border-radius: 10px; padding: 2px; }
+div.error { border-color: red !important; }
+div.success { border-color: green !important; }
+.ui-widget { font-size: 12px !important; }
+div.frame { display: none; }
+table { width: 60% }
+#menu { margin-top: 26px; margin-left: 10px; }

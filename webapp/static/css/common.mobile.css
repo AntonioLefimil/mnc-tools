@@ -1,0 +1,26 @@
+/* common mobile css */
+
+table {
+    color: black;
+    background: #fff;
+    border: 1px solid #b4b4b4;
+    font: bold 17px helvetica;
+    padding: 0;
+    margin-top:10px;
+    width: 100%;
+    border-radius: 8px;
+}
+     
+table tr td {
+    color: #666;
+    border-bottom: 1px solid #b4b4b4;
+    border-right: 1px solid #b4b4b4;
+    padding: 10px 10px 10px 10px;
+    background-image: -webkit-linear-gradient(top, #fdfdfd, #eee);
+}
+
+.backButton { width : 80%; margin-left: 10%; }
+div#header { padding-bottom: 2px; padding-top: 2px;  }
+ul { padding: 0px; }
+table tr td:last-child { border-right: none; }
+table tr:last-child td { border-bottom: none; }
